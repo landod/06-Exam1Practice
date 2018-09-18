@@ -95,14 +95,20 @@ def run_test_problem3a():
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
-    window3.close_on_mouse_click()
-
     # ------------------------------------------------------------------
     # TO DO: 2 (continued).
     # Below this comment (or integrated with one of the above tests,
     # your choice), add 1 more test case of your own choosing.
     # ------------------------------------------------------------------
 
+    point = rg.Point(36, 100)
+    expected = 16
+    answer = problem3a(window3, point, 4)
+    print()
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    window3.close_on_mouse_click()
 
 def problem3a(window, point, n):
     """
